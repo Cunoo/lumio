@@ -1,0 +1,44 @@
+# Node dependencies
+**/node_modules/
+**/package-lock.json
+**/yarn.lock
+**/pnpm-lock.yaml
+
+# React Native / Android
+**/android/app/build/
+**/android/**/*.iml
+**/.gradle/
+**/local.properties
+
+# React Native / iOS
+**/ios/Pods/
+**/ios/build/
+**/ios/*.xcworkspace
+**/*.xcodeproj/project.xcworkspace/
+**/*.xcodeproj/xcuserdata/
+**/*.xcodeproj/DerivedData/
+**/*.hmap
+**/*.ipa
+**/*.app
+
+# Logs
+**/logs
+**/*.log
+
+# Temporary files
+**/tmp/
+**/temp/
+**/*.tmp
+
+# IDE/editor files
+**/.vscode/
+**/.idea/
+**/*.swp
+
+# Mac system files
+**/.DS_Store
+
+# Environment variables
+**/.env
+**/.env.*
+
